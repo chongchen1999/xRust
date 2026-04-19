@@ -2,5 +2,5 @@
 resolver = "3"
 members = [
     "01-intro/world_hello",
-    "02-basic/complex-num", "02-basic/stat-and-expr", "03-ownership/ownership", "03-ownership/ref-and-borrow", "04-conpound-type/array", "04-conpound-type/enumerate", "04-conpound-type/string-and-slice", "04-conpound-type/structure", "04-conpound-type/tuple",
+    "02-basic/complex-num", "02-basic/stat-and-expr", "03-ownership/ownership", "03-ownership/ref-and-borrow", "04-conpound-type/array", "04-conpound-type/enumerate", "04-conpound-type/string-and-slice", "04-conpound-type/structure", "04-conpound-type/tuple", "05-workflow/workflow", "06-pattern-match/matching", "06-pattern-match/option", "06-pattern-match/pattern", "06-pattern-match/pattern_", "07-method/method",
 ]
