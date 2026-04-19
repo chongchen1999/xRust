@@ -1,0 +1,6 @@
+[workspace]
+resolver = "3"
+members = [
+    "01-intro/world_hello",
+    "02-basic/complex-num", "02-basic/stat-and-expr", "03-ownership/ownership", "03-ownership/ref-and-borrow", "04-conpound-type/enumerate", "04-conpound-type/string-and-slice", "04-conpound-type/structure", "04-conpound-type/tuple",
+]
