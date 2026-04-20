@@ -24,7 +24,15 @@ name = "enumerate"
 version = "0.1.0"
 
 [[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
 name = "matching"
+version = "0.1.0"
+
+[[package]]
+name = "method"
 version = "0.1.0"
 
 [[package]]
@@ -101,11 +109,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "option"
+name = "ownership"
 version = "0.1.0"
 
 [[package]]
-name = "ownership"
+name = "pattern"
 version = "0.1.0"
 
 [[package]]
@@ -122,6 +130,14 @@ version = "0.1.0"
 
 [[package]]
 name = "structure"
+version = "0.1.0"
+
+[[package]]
+name = "trait_"
+version = "0.1.0"
+
+[[package]]
+name = "trait_object"
 version = "0.1.0"
 
 [[package]]
