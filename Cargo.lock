@@ -28,6 +28,18 @@ name = "generics"
 version = "0.1.0"
 
 [[package]]
+name = "greeter"
+version = "0.1.0"
+
+[[package]]
+name = "hash_map"
+version = "0.1.0"
+
+[[package]]
+name = "lifetime"
+version = "0.1.0"
+
+[[package]]
 name = "matching"
 version = "0.1.0"
 
@@ -113,11 +125,23 @@ name = "ownership"
 version = "0.1.0"
 
 [[package]]
+name = "panic_"
+version = "0.1.0"
+
+[[package]]
 name = "pattern"
 version = "0.1.0"
 
 [[package]]
 name = "ref-and-borrow"
+version = "0.1.0"
+
+[[package]]
+name = "restaurant"
+version = "0.1.0"
+
+[[package]]
+name = "result_"
 version = "0.1.0"
 
 [[package]]
@@ -142,6 +166,10 @@ version = "0.1.0"
 
 [[package]]
 name = "tuple"
+version = "0.1.0"
+
+[[package]]
+name = "vec"
 version = "0.1.0"
 
 [[package]]
