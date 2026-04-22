@@ -20,7 +20,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "debug_trait"
+version = "0.1.0"
+
+[[package]]
+name = "display_trait"
+version = "0.1.0"
+
+[[package]]
+name = "doc-comments"
+version = "0.1.0"
+
+[[package]]
 name = "enumerate"
+version = "0.1.0"
+
+[[package]]
+name = "format_args"
+version = "0.1.0"
+
+[[package]]
+name = "format_macros"
 version = "0.1.0"
 
 [[package]]

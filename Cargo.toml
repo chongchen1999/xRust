@@ -2,5 +2,8 @@
 resolver = "3"
 members = [
     "01-intro/world_hello",
-    "02-basic/complex-num", "02-basic/stat-and-expr", "03-ownership/ownership", "03-ownership/ref-and-borrow", "04-conpound-type/array", "04-conpound-type/enumerate", "04-conpound-type/string-and-slice", "04-conpound-type/structure", "04-conpound-type/tuple", "05-workflow/workflow", "06-pattern-match/matching", "06-pattern-match/pattern", "07-method/method", "08-generics-and-trait/generics", "08-generics-and-trait/trait_", "08-generics-and-trait/trait_object", "09-collections/hash_map", "09-collections/vec", "10-lifetime-basic/lifetime", "11-rv-and-eh/panic_", "11-rv-and-eh/result_", "12-multiple-files/greeter", "12-multiple-files/restaurant",
+    "02-basic/complex-num", "02-basic/stat-and-expr", "03-ownership/ownership", "03-ownership/ref-and-borrow", "04-conpound-type/array", "04-conpound-type/enumerate", "04-conpound-type/string-and-slice", "04-conpound-type/structure", "04-conpound-type/tuple", "05-workflow/workflow", "06-pattern-match/matching", "06-pattern-match/pattern", "07-method/method", "08-generics-and-trait/generics", "08-generics-and-trait/trait_", "08-generics-and-trait/trait_object", "09-collections/hash_map", "09-collections/vec", "10-lifetime-basic/lifetime", "11-rv-and-eh/panic_", "11-rv-and-eh/result_", "12-multiple-files/greeter", "12-multiple-files/restaurant", "13-annotation/doc-comments", "14-format-output/debug_trait",
+    "14-format-output/display_trait",
+    "14-format-output/format_args",
+    "14-format-output/format_macros",
 ]
