@@ -16,5 +16,5 @@ members = [
     "courses/12-multiple-files/greeter", "courses/12-multiple-files/restaurant",
     "courses/13-annotation/doc-comments",
     "courses/14-format-output/debug_trait", "courses/14-format-output/display_trait",
-    "courses/14-format-output/format_args", "courses/14-format-output/format_macros",
+    "courses/14-format-output/format_args", "courses/14-format-output/format_macros", "projects/minigrep",
 ]
