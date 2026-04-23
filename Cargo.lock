@@ -60,6 +60,10 @@ name = "lifetime"
 version = "0.1.0"
 
 [[package]]
+name = "lifetime_checker"
+version = "0.1.0"
+
+[[package]]
 name = "matching"
 version = "0.1.0"
 
@@ -154,6 +158,10 @@ version = "0.1.0"
 
 [[package]]
 name = "pattern"
+version = "0.1.0"
+
+[[package]]
+name = "reborrow"
 version = "0.1.0"
 
 [[package]]
