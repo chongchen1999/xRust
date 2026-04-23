@@ -1,8 +1,9 @@
-struct Interface<'a> {
-    manager: &'a mut Manager<'a>
+// 'b: borrow lifetime of the reference, 'a: content lifetime of Manager
+struct Interface<'b, 'a: 'b> {
+    manager: &'b mut Manager<'a>,
 }
 
-impl<'a> Interface<'a> {
+impl<'b, 'a: 'b> Interface<'b, 'a> {
     pub fn noop(self) {
         println!("interface consumed");
     }
@@ -17,9 +18,12 @@ struct List<'a> {
 }
 
 impl<'a> List<'a> {
-    pub fn get_interface(&'a mut self) -> Interface {
+    pub fn get_interface<'b>(&'b mut self) -> Interface<'b, 'a>
+    where
+        'a: 'b,
+    {
         Interface {
-            manager: &mut self.manager
+            manager: &mut self.manager,
         }
     }
 }
